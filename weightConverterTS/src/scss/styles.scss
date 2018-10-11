@@ -1,0 +1,44 @@
+$fontColor: #0091aa;
+$colorHeading: #be4a14;
+#content  // div with id: content
+{
+    // color: $fontColor;
+}
+
+h2
+{
+    color: $colorHeading;
+}
+
+h1{
+    @extend h2;
+}
+
+h4{
+    margin-top: 2em;
+}
+
+button{
+    width: 15%;
+    padding: 1em;
+    margin: 0em,2em;
+    background-color: #be4a14;
+    color: whitesmoke;
+}
+input{
+    width: 25%;
+    padding: .5em;
+}
+
+#result {
+    margin-top: 2em;
+    padding: .5em;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    width: 30%;
+}
+
+#content {
+    width: 100%;
+}
